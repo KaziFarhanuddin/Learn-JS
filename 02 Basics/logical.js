@@ -1,3 +1,0 @@
-// Logical Operation
-// 	&& - And
-// 	|| - Or

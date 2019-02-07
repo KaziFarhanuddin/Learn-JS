@@ -1,10 +1,13 @@
-// const days = ['Mon','Tue','Wed','Thi','Fry','Sat']
+a = ['a','b','c','d']
 
-// // console.log(days[0])
+for (let i=0; i<a.length; i++){
+	console.log(a[i])
+}
 
-// days.forEach(function (argument, index) {
-// 	console.log(`${argument} is ${index}`)
-// })
+console.log('reverse : ')
+for (let i=a.length-1; i>=0; i--){
+	console.log(a[i])
+}
 
 const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Qct','Nov','Dec']
 

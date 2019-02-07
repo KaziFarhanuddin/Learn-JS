@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+	<center>
+		<h1 class="title">To Do List</h1>
+		<input type="text" class="input" style="width:40%" name="input" required id="input">
+		<button id="adder" class="button is-success">Add</button>
+        <br>
+        <br>
+        <button class="button is-danger" onClick = "Clear()">Clear</button>
+        <br><br>
+		<ul id="toDo">
+		
+		</ul>
+	</center>
+    </div>
+    <script src="toDoListJs.js"></script>
+  </section>
+  </body>
+</html>

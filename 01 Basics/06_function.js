@@ -3,14 +3,7 @@ let great = function (name) {
 }
 great('kazi')
 
-let fullName= function (firstName, lastName) {
+function fullName(firstName, lastName) {
 	console.log(firstName+' '+lastName)	
 }
 fullName('kazi','farhan')
-
-let Add= function (num1, num2) {
-	return num1+num2
-}
-
-a = Add(1,3)
-console.log(a)

@@ -1,8 +1,3 @@
-// const arr = ['Eat', 'play']
-
-// console.log(arr.indexOf('eat'))
-// console.log(arr.indexOf('Eat'))
-
 const brr = [
 	{
 		title:"Eat",
